@@ -67,11 +67,11 @@
 		return shadowObj[shadow] ?? "unset";
 	}
 
-	let small = 400;
-	let mid = 500;
-	let lg = 992;
-	let xl = 1280;
-	let xxl = 1536;
+	const small = 400;
+	const mid = 500;
+	const lg = 992;
+	const xl = 1280;
+	const xxl = 1536;
 
 	type PropertyTypeValue<T> = T extends PropertyType<infer U> ? U : never;
 
